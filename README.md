@@ -1,16 +1,33 @@
 # todo_app
 
-A new Flutter project.
+Desenvolvimento de aplicação para a disciplina de Mobile Profissional:
 
-## Getting Started
+Este projeto cobre:
 
-This project is a starting point for a Flutter application.
+Clean Code: Estrutura organizada e modular.
+MVVM: Separação de responsabilidades clara.
+TDD: Exemplo de teste unitário para lógica.
+Injeção de Dependência: ViewModel recebe DatabaseService.
+SQLite: Gerenciamento de dados local.
 
-A few resources to get you started if this is your first Flutter project:
+lib/
+├── models/
+│   └── todo.dart
+├── views/
+│   ├── home_view.dart
+│   ├── add_task_view.dart
+│   └── settings_view.dart
+├── viewmodels/
+│   └── todo_view_model.dart
+├── services/
+│   ├── database_service.dart
+│   └── dependency_injector.dart
+├── widgets/
+│   └── todo_item_widget.dart
+└── main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Gravação Vídeo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Áudio um pouco baixo por conta do ruido externo, veja com o celular ou com volume alto
+
+- [Link vídeo](https://youtu.be/JybfTK51Tqo)
