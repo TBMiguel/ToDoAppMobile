@@ -5,9 +5,13 @@ Desenvolvimento de aplicação para a disciplina de Mobile Profissional:
 Este projeto cobre:
 
 Clean Code: Estrutura organizada e modular.
+
 MVVM: Separação de responsabilidades clara.
+
 TDD: Exemplo de teste unitário para lógica.
+
 Injeção de Dependência: ViewModel recebe DatabaseService.
+
 SQLite: Gerenciamento de dados local.
 
 ## Gravação Vídeo
